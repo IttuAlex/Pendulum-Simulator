@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 20px;
+}
+h1 {
+    color: #333;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+}
+#pendulumCanvas {
+    border: 1px solid #ccc;
+    background-color: #fff;
+    cursor: pointer;
+}
+#energyChart {
+    width: 600px;
+    height: 400px;
+}
+.controls {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+input[type="range"] {
+    width: 200px;
+    margin: 10px 0;
+}
+label {
+    font-size: 14px;
+    margin-top: 10px;
+}
